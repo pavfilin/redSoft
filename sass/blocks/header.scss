@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 40px;
+  background-image: url('../img/bg/header_bg_1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #1d529c;
+
+  &__wrapper {
+    max-width: 1160px; // 1520
+    margin: 0 auto;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  &__nav-inner {
+    text-align: center;
+  }
+
+  &__logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+  }
+
+  &__nav {
+    display: inline-block;
+    font-size: 0;
+  }
+}

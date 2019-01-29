@@ -1,0 +1,102 @@
+.benefits {
+  width: 100%;
+  padding-top: 164px;
+  padding-bottom: 40px;
+  overflow: hidden;
+  background-color: #fff;
+
+  &__wrapper {
+    max-width: 1160px; // 1520
+    margin: 0 auto;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+    color: #31496b;
+  }
+
+  &__pic {
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 1;
+    margin-top: 112px;
+    padding-right: 500px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -110px;
+      width: 611px;
+      height: 608px;
+      z-index: -1;
+      background-image: url('../img/benefits_mobiles.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+.benefit {
+  margin-bottom: 95px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #60759d;
+  }
+
+  &__desc {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #60759d;
+  }
+}
+
+.benefits__benefit--ico {
+  position: relative;
+
+  &:before {
+    content: '0';
+    position: absolute;
+    top: -20px;
+    left: -93px;
+    padding: 12px 30px;
+    text-align: center;
+    border: 1px solid #bce2f5;
+    border-right-color: #fff;
+    border-radius: 60px;
+    font-size: 60px;
+    color: #bce2f5;
+  }
+}
+
+.benefits__benefit--ico-1 {
+  &:before {
+    content: '1';
+  }
+}
+
+.benefits__benefit--ico-2 {
+  &:before {
+    content: '2';
+  }
+}
+
+.benefits__benefit--ico-3 {
+  &:before {
+    content: '3';
+  }
+}

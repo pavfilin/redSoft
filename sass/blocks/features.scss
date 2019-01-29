@@ -1,0 +1,96 @@
+.features {
+  padding-top: 152px;
+  padding-bottom: 108px;
+  overflow: hidden;
+  background-color: #fff;
+
+  &__wrapper {
+    max-width: 1160px; // 1520
+    margin: 0 auto;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  &__pic {
+    float: left;
+  }
+
+  &__inner {
+    // position: relative;
+    padding-top: 94px;
+    padding-left: 330px;
+/*
+    &:after {
+      content: '';
+      position: absolute;
+      right: -660px;
+      bottom: -360px;
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+      background-image: url('../img/features_puls.png');
+      background-repeat: no-repeat;
+      background-position: center;
+    }*/
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 41px;
+    font-size: 36px;
+    color: #60759d;
+  }
+
+  &__subtitle {
+    margin: 0;
+    margin-bottom: 21px;
+    font-size: 16px;
+    color: #60759d;
+  }
+
+  &__list {
+    padding-left: 20px;
+    color: #16afe0;
+  }
+
+  &__item {
+    position: relative;
+    margin-bottom: 29px;
+    line-height: 22px;
+    color: #60759d;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 9px;
+      left: -14px;
+      width: 5px;
+      height: 5px;
+      border-radius: 2px;
+      background-color: #16afe0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.decor-pic {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    right: -660px;
+    bottom: -360px;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.6) translateY(47px) translateX(-277px) rotate(20deg);
+    z-index: 1;
+    background-image: url('../img/features_puls.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

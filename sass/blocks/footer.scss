@@ -1,0 +1,37 @@
+.footer {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: #39649d;
+
+  &__wrapper {
+    max-width: 1160px; // 1520
+    margin: 0 auto;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  &__logo {
+    display: inline-block;
+    margin-right: 80px;
+  }
+
+  &__nav {
+    display: inline-block;
+    font-size: 0;
+  }
+
+  &__copyright {
+    margin: 0;
+    margin-top: 90px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #e3e7f2;
+  }
+}
+
+.made {
+  color: #e70067;
+  text-decoration: none;
+}

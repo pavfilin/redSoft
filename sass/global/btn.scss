@@ -1,0 +1,76 @@
+.btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn--more {
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 148px;
+  padding: 23px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 33px;
+  background-color: #e70067;
+
+  &:hover {
+    padding: 23px 71px;
+    border-radius: 33px;
+    background-color: #c9005a;
+  }
+}
+
+.btn--order {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 21px 32px 21px 32px;
+  white-space: nowrap;
+  border: 2px solid #5489c3;
+  border-radius: 33px;
+  font-size: 16px;
+  text-decoration: none;
+
+  &:hover {
+    border-color: #5489c3;
+    background-color: #5489c3;
+  }
+}
+
+.btn--feat {
+  display: inline-block;
+  margin-top: 41px;
+  padding: 23px 36px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 33px;
+  background-color: #e70067;
+
+  &:hover {
+    background-color: #c9005a;
+  }
+}
+
+.btn--mail {
+  display: inline-block;
+  padding: 23px 38px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 33px;
+  background-color: #e70067;
+
+  &:hover {
+    background-color: #c9005a;
+  }
+}

@@ -1,0 +1,56 @@
+.mail {
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 160px;
+  background-image: url('../img/bg/mail_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #f1f3fb;
+
+  &__wrapper {
+    max-width: 1160px; // 1520
+    margin: 0 auto;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 56px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 54px;
+    color: #60759d;
+  }
+
+  &__desc {
+    margin: 0;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    color: #60759d;
+  }
+
+  &__form {
+    font-size: 0;
+    text-align: center;
+  }
+
+  &__email {
+    width: 270px;
+    margin-right: 40px;
+    padding: 21px 25px;
+    font-size: 14px;
+    border: 1px solid #4f699b;
+    border-radius: 30px;
+    outline: 0;
+    background: transparent;
+    color: #a8b2bf;
+  }
+
+  &__btn {
+
+  }
+}
